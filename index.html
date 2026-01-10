@@ -234,84 +234,207 @@
                         </div>
                     </div>
                 </div>
-                <!-- Project 2 -->
-                <div class="group bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition-all">
-                    <div class="h-48 overflow-hidden">
-                        <img src="https://placehold.co/600x400/0f172a/ffffff?text=Audit+SEO" alt="Audit SEO" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold text-slate-900 mb-2">Audit SEO & Optimisation</h3>
-                        <p class="text-slate-600 text-sm mb-4">Analyse complète d'un site e-commerce fictif. Identification des mots-clés, optimisation On-Page et recommandations techniques.</p>
-                        <div class="flex flex-wrap gap-2">
-                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md">#Semrush</span>
-                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md">#Google Search Console</span>
-                            <span class="px-2 py-1 bg-slate-100 text-slate-600 text-xs rounded-md">#Excel</span>
-                        </div>
-                    </div>
-                </div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riham Belcaid - CV Marketing Digital</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- DESIGN & STYLES (CSS) --- */
+        :root {
+            --primary: #1a2a3a; /* Bleu foncé pro */
+            --accent: #d4a373;  /* Doré/Beige élégant */
+            --light-bg: #f8f9fa;
+            --text: #333;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* En-tête */
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+            border-bottom: 6px solid var(--accent);
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin-bottom: 15px;
+            background-color: #ddd; /* Fond de secours */
+        }
+
+        h1 { margin: 10px 0; font-size: 2.2rem; text-transform: uppercase; letter-spacing: 2px; }
+        .tagline { font-size: 1.1rem; color: var(--accent); font-weight: 300; margin-bottom: 20px; }
+
+        .contact-bar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contact-bar a {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Sections */
+        section {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary);
+            border-left: 4px solid var(--accent);
+            padding-left: 15px;
+            margin-bottom: 25px;
+            font-size: 1.5rem;
+        }
+
+        /* Compétences */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-item {
+            background: #f1f3f5;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 500;
+            text-align: center;
+            border: 1px solid #e9ecef;
+        }
+
+        /* Expériences & Études */
+        .card {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .card:last-child { border: none; }
+
+        .card h3 { margin: 0; color: var(--primary); font-size: 1.1rem; }
+        .card .date { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .contact-bar { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="photo.jpg" alt="Riham Belcaid" class="profile-img">
+            <h1>Riham Belcaid</h1>
+            <p class="tagline">Étudiante en Marketing Digital & Commercial | EST Salé</p>
+            
+            <div class="contact-bar">
+                <a href="mailto:Rihamb32@gmail.com"><i class="fas fa-envelope"></i> Rihamb32@gmail.com</a>
+                <a href="tel:+212666160127"><i class="fas fa-phone"></i> +212 6661-60127</a>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- Contact -->
-    <section id="contact" class="py-20 bg-slate-900 text-white text-center px-6">
-        <h2 class="text-3xl md:text-5xl font-bold mb-6">Prête à collaborer ?</h2>
-        <p class="text-slate-300 mb-10">Disponible immédiatement pour un entretien à Rabat ou Salé.</p>
-        <div class="flex flex-col md:flex-row justify-center gap-8 mb-12">
-            <div class="flex items-center justify-center gap-2"><i data-lucide="mail" class="text-blue-400"></i> rihamb32@gmail.com</div>
-            <div class="flex items-center justify-center gap-2"><i data-lucide="phone" class="text-blue-400"></i> +212 6 66 16 01 27</div>
-            <div class="flex items-center justify-center gap-2"><i data-lucide="map-pin" class="text-blue-400"></i> Salé, Maroc</div>
-        </div>
-        <a href="mailto:rihamb32@gmail.com" class="px-8 py-4 rounded-full bg-white text-slate-900 font-bold hover:bg-blue-50 transition-all shadow-lg inline-flex items-center gap-2">
-            Me Contacter <i data-lucide="send" class="w-5 h-5"></i>
-        </a>
-    </section>
+    <div class="container">
+        
+        <section id="bio">
+            <h2><i class="fas fa-bullseye"></i> Objectif</h2>
+            <p>Actuellement en 2ème année de DUT à l'EST de Salé, je recherche un stage de fin d'études dans une multinationale basée à Rabat. Motivée par les défis du marketing digital, je maîtrise la création de contenu et la gestion de communautés.</p>
+        </section>
 
-    <footer class="bg-slate-950 py-8 text-center text-slate-500 text-sm">
-        <p>© 2024 Riham Belcaid - Étudiante EST Salé.</p>
+        <section id="education">
+            <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+            <div class="card">
+                <h3>DUT en Marketing Digital et Commercial</h3>
+                <span class="date">2024 - Aujourd'hui</span>
+                <p>École Supérieure de Technologie (EST) – Salé</p>
+            </div>
+            <div class="card">
+                <h3>Baccalauréat en Sciences Physiques</h3>
+                <span class="date">2023 - 2024</span>
+                <p>Lycée scientifique Souissi – Rabat</p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2><i class="fas fa-briefcase"></i> Expérience Professionnelle</h2>
+            <div class="card">
+                <h3>Stagiaire en Entreprise de Services</h3>
+                <span class="date">Juin - Juillet 2025 | BERNEG SARL</span>
+                <ul>
+                    <li>Gestion opérationnelle des pages Facebook et Instagram.</li>
+                    <li>Support à la stratégie de fidélisation client.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Secrétaire Générale Adjointe</h3>
+                <span class="date">Club Universitaire EMC5</span>
+                <p>Création de visuels de communication et animation des réseaux sociaux du club.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2><i class="fas fa-laptop-code"></i> Compétences Clés</h2>
+            <div class="skills-container">
+                <div class="skill-item">Social Media Management</div>
+                <div class="skill-item">Canva & Design Visuel</div>
+                <div class="skill-item">Storytelling Digital</div>
+                <div class="skill-item">Anglais & Français (Courant)</div>
+                <div class="skill-item">Microsoft Office Suite</div>
+                <div class="skill-item">Veille Concurrentielle</div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Conçu par Riham Belcaid &bull; 2026 &bull; Disponible pour stage à Rabat</p>
     </footer>
 
-    <script>
-        // Initialize Lucide Icons
-        lucide.createIcons();
-
-        // Navbar scroll effect
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                navbar.classList.add('bg-white/90', 'backdrop-blur-md', 'shadow-sm', 'py-4');
-                navbar.classList.remove('bg-transparent', 'py-6');
-            } else {
-                navbar.classList.remove('bg-white/90', 'backdrop-blur-md', 'shadow-sm', 'py-4');
-                navbar.classList.add('bg-transparent', 'py-6');
-            }
-        });
-
-        // Mobile menu toggle
-        const menuBtn = document.getElementById('menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const menuIcon = document.getElementById('menu-icon');
-
-        menuBtn.addEventListener('click', () => {
-            const isHidden = mobileMenu.classList.contains('hidden');
-            if (isHidden) {
-                mobileMenu.classList.remove('hidden');
-                menuBtn.innerHTML = '<i data-lucide="x"></i>';
-            } else {
-                mobileMenu.classList.add('hidden');
-                menuBtn.innerHTML = '<i data-lucide="menu"></i>';
-            }
-            lucide.createIcons();
-        });
-
-        // Close menu on link click
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
-                menuBtn.innerHTML = '<i data-lucide="menu"></i>';
-                lucide.createIcons();
-            });
-        });
-    </script>
 </body>
 </html>
